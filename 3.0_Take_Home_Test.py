@@ -6,18 +6,20 @@ but I will definitely not ask another person except the instructor. Signed: Noah
 
 1. Write a line of code that will print your name.
 '''
-
+pirint("noah mable")
 
 '''
 2. How do you enter a comment in a program?
 
 '''
-
+#this is a comment
 
 '''
 3. What is the ouput of the following lines of code?
 print (2/3)
 print (2//3)
+0.66666666666666
+0
 '''
 
 
@@ -26,12 +28,13 @@ print (2//3)
 appropriate value.
 
 '''
-
+pi = 3.14
 
 '''
 5. Why does this code not work?
 A=22
 print(a)
+a is not defined
 '''
 
 
@@ -44,7 +47,7 @@ Area
 AREA
 area
 areaOfRectangle
-AreaOfRectangle
+AreaOfRectangle         this it describes the variable well and is consistant capitolization
 '''
 
 
@@ -54,8 +57,8 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
-account number
+1Apple                  this
+account number          this
 account_number
 account.number
 accountNumber
