@@ -6,7 +6,7 @@ but I will definitely not ask another person except the instructor. Signed: Noah
 
 1. Write a line of code that will print your name.
 '''
-pirint("noah mable")
+print("noah mable")
 
 '''
 2. How do you enter a comment in a program?
@@ -60,9 +60,9 @@ Apple2
 1Apple                  this
 account number          this
 account_number
-account.number
+account.number          this
 accountNumber
-account#
+account#                this
 '''
 
 
@@ -72,6 +72,7 @@ account#
 
 print(a)
 a=45
+a is defined after it is asked to print
 '''
 
 
@@ -81,19 +82,22 @@ a=45
 side and store the result in a variable. Make sure to convert the value
 to an integer.
 '''
-
+side = int(input("length of a square: "))
 
 '''
 10. Write a line of code that prints the area of the square, using the
 number the user typed in that you stored in question 9.
 '''
-
+print("area of a sqaure: ",side*side)
 
 
 '''11. Do the same as in questions 9 and 10, but with the formula for the
 area of an ellipse. Area=pi*a*b where a and b are the lengths of the major radii.
 '''
-
+radious1 = int(input("lenth of a radious: "))
+radious2 = int(input("lenth of another radious: "))
+area = pi*radious1*radious2
+print("area of an elipse given the previous radiouses: ",area)
 
 
 '''
