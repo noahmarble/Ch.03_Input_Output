@@ -12,7 +12,8 @@ In: 25  Out: -3.9
 In: -40  Out: ???
 
 '''
-
-
+tempinFahrenheit = int(input("temp in Fahrenheit: "))
+tempinCelsius = (tempinFahrenheit-32)*(5/9)
+print("temp in Celsius: ",tempinCelsius)
 
 
