@@ -105,12 +105,17 @@ print("area of an elipse given the previous radiouses: ",area)
 the pressure of a gas. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
 '''
-
-
+volume = int(input("volume: "))
+numberofmoles = int(input("number of moles: "))
+R = 8.3144
+absolutetempreture = int(input("absolute tempreture: "))
+pressure = (numberofmoles*R*absolutetempreture)/volume
+print("pressure is: ",pressure)
 '''
 13. Explain the mistake in this code:
 
 pi = float(3.14)
+the float is unessasary
 '''
 
 
@@ -121,6 +126,7 @@ pi = float(3.14)
 x=3.14
 pi=x
 area=pi*radius**2
+you can just set pi to 3.14
 '''
 
 
@@ -129,6 +135,7 @@ Assuming x and y are already defined, this code runs. But
 something isn't quite right. Explain the mistake in the following code:
 
 a=((x)*(y))
+you can simpily use a = x*y
 '''
 
 
@@ -136,6 +143,8 @@ a=((x)*(y))
 16. Explain the mistake in the following code:
 
 radius = input(float("Enter the radius:"))
+you need to float the input not the string, should be like this
+radius = float(input("Enter the radius:"))
 '''
 
 
