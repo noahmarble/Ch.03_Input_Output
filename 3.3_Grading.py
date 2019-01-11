@@ -15,4 +15,5 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 semestergrade = int(input("what is your semester grade? "))
 finalgrade = int(input("what is your final grade? "))
 finalweight = int(input("what is your final exam worth? "))
-overall =
+overall =(semestergrade*(100 - finalweight) + finalgrade*finalweight)/100
+print("your overall grade is: ", overall)
