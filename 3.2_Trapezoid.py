@@ -8,7 +8,7 @@ Test with the following:
 base 1: 2       base 2: 3    height: 4    area: 10
 base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
-base 1: 7       base 2: 2    height: 4    area: 14
+base 1: 7       base 2: 2    height: 4    area: 18
 '''
 base1 = int(input("base1: "))
 base2 = int(input("base2: "))
