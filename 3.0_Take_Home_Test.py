@@ -69,5 +69,9 @@ print("this is the square root of that number:", answer)
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
 '''
+mass = int(input("May the mass times acceleration be with you!\n\rinput a mass:"))
+acceleration = int(input("input an acceleration:"))
+force = mass*acceleration
+print("your force is,", force, "\n\rGet it?")
 
 
