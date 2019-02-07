@@ -46,7 +46,11 @@ print("area:", s*s)
 '''7. Ask a user for the length of radii of an ellipse and then print its area. 
 Area=pi*a*b where a and b are the lengths of the major radii.
 '''
+import math
 r=int(input("radii:"))
+pi=3.14
+area=pi*(r*r)
+print("the area of this circle is:",area)
 
 
 '''
