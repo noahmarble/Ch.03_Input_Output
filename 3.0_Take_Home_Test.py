@@ -72,6 +72,6 @@ and then print out the Force on one line and "Get it?" on the next.
 mass = int(input("May the mass times acceleration be with you!\n\rinput a mass:"))
 acceleration = int(input("input an acceleration:"))
 force = mass*acceleration
-print("your force is,", force, "\n\rGet it?")
+print("your force is:",force, "\n\rGet it?")
 
 
